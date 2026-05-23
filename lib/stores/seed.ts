@@ -38,15 +38,10 @@ export const SEED_MINIBAR_ITEMS: InventoryItem[] = [
   { id: "m4", name: "كرواسون", buyPrice: 1500, sellPrice: 3500, stock: 0, status: "archived", createdAt: "2025-03-10T00:00:00.000Z" },
 ]
 
-export const SEED_CLIENTS: Client[] = [
-  { id: "c1", name: "عبدالله المطيري", phone: "0500123456", email: "", tier: "platinum", visits: 12, totalSpent: 432000, lastVisit: "2026-05-19T00:00:00.000Z", notes: "", createdAt: "2025-01-05T00:00:00.000Z" },
-  { id: "c2", name: "فيصل الدوسري", phone: "0550987654", email: "", tier: "gold", visits: 8, totalSpent: 192000, lastVisit: "2026-05-17T00:00:00.000Z", notes: "", createdAt: "2025-02-10T00:00:00.000Z" },
-  { id: "c3", name: "سلطان العتيبي", phone: "0560345678", email: "", tier: "silver", visits: 5, totalSpent: 96000, lastVisit: "2026-05-14T00:00:00.000Z", notes: "", createdAt: "2025-03-15T00:00:00.000Z" },
-  { id: "c4", name: "راشد الشمري", phone: "0540678901", email: "", tier: "platinum", visits: 18, totalSpent: 720000, lastVisit: "2026-05-18T00:00:00.000Z", notes: "", createdAt: "2025-01-20T00:00:00.000Z" },
-  { id: "c5", name: "خالد الحربي", phone: "0530234567", email: "", tier: "silver", visits: 3, totalSpent: 54000, lastVisit: "2026-05-10T00:00:00.000Z", notes: "", createdAt: "2025-04-01T00:00:00.000Z" },
-  { id: "c6", name: "نايف العمري", phone: "0520890123", email: "", tier: "gold", visits: 7, totalSpent: 224000, lastVisit: "2026-05-12T00:00:00.000Z", notes: "", createdAt: "2025-02-25T00:00:00.000Z" },
-  { id: "c7", name: "بدر القحطاني", phone: "0590456789", email: "", tier: "platinum", visits: 21, totalSpent: 960000, lastVisit: "2026-05-19T00:00:00.000Z", notes: "", createdAt: "2024-12-01T00:00:00.000Z" },
-  { id: "c8", name: "تركي الغامدي", phone: "0561234567", email: "", tier: "new", visits: 1, totalSpent: 12000, lastVisit: "2026-05-19T00:00:00.000Z", notes: "", createdAt: "2026-05-19T00:00:00.000Z" },
+export const SEED_CLIENTS: Client[] = [];
+export const SEED_PRODUCTS: InventoryItem[] = [];
+export const SEED_MINIBAR_ITEMS: InventoryItem[] = [];
+];talSpent: 12000, lastVisit: "2026-05-19T00:00:00.000Z", notes: "", createdAt: "2026-05-19T00:00:00.000Z" },
 ]
 
 export const SEED_APPOINTMENTS: Appointment[] = [
