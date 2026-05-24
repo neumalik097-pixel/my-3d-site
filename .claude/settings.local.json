@@ -6,7 +6,8 @@
       "PowerShell(Get-ChildItem -Path \"c:\\\\Users\\\\malik\\\\my-3d-site\\\\app\" -Recurse | Where-Object { $_.PSIsContainer -eq $true } | Select-Object -ExpandProperty FullName | ForEach-Object { $_.Replace\\(\"c:\\\\Users\\\\malik\\\\my-3d-site\\\\\", \"\"\\) } | Sort-Object)",
       "PowerShell(cd c:\\\\Users\\\\malik\\\\my-3d-site; $proc = Start-Process -FilePath \"cmd.exe\" -ArgumentList \"/c\", \"npm run dev > dev-output.txt 2>&1\" -PassThru -WindowStyle Hidden; Start-Sleep -Seconds 8; $proc.Id)",
       "PowerShell(cd c:\\\\Users\\\\malik\\\\my-3d-site; $env:PLAYWRIGHT_BROWSERS_PATH=\"$env:USERPROFILE\\\\.cache\\\\playwright\"; & \"F:\\\\node.exe\" debug-auth-test.mjs 2>&1 | Select-Object -First 10)",
-      "PowerShell(cd \"c:\\\\Users\\\\malik\\\\my-3d-site\"; \\(Get-Content \"components\\\\reports\\\\reports-client.tsx\" | Measure-Object -Line\\).Lines)"
+      "PowerShell(cd \"c:\\\\Users\\\\malik\\\\my-3d-site\"; \\(Get-Content \"components\\\\reports\\\\reports-client.tsx\" | Measure-Object -Line\\).Lines)",
+      "Bash(npx tsc *)"
     ]
   }
 }

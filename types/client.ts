@@ -27,5 +27,4 @@ export interface Client extends ClientFormValues {
   lastVisit?: string
   isActive: boolean
   createdAt: string
-  visits: number
 }
